@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./reglas.css">   
+    <title>ToDoList</title>
+   
+</head>
+
+<body>
+
+    <header>
+        <h1>To Do List</h1>
+    </header>
+
+    <main>
+        
+        <div class="form-to-do">
+             <input type="text" id="todo-input" placeholder="Agrega tu tarea">
+             <i id="add-todo" class="fas fa-plus-circle"></i>
+        </div>
+
+        <div class="list-container">
+             <ul id="list-todo">
+                <!-- <li><i id="add-todo" class="far fa-circle co"></i></li> -->
+             </ul>
+        </div>
+
+        <div class="actions">
+            <button id="complete-all-tasks" class="button" >Completar todo</button>
+            <button id="clear-tasks" class="button">Eliminar todo</button>
+          </div>
+
+    </main>
+    <!--Siempre se importa al final del body-->
+      <script src="./main.js"></script> 
+</body>
+
+</html>
