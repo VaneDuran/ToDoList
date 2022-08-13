@@ -36,6 +36,7 @@ const generateRandomId = () => String(Math.random() + 100000)
 
 
 const addTask = (description, isCompleted = false) => {
+  if(taskInput.value != "")
     tasksList.push({
         id: generateRandomId(),
         description,
